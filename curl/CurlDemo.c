@@ -33,7 +33,12 @@ void testPost(){
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
     if(curl){
-        curl_easy_setopt(curl,CURLOPT_URL,"https://qinyuan-test.yunext.com/web/api/app/user/login");
+	
+	    // 
+	curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+	curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+        
+	curl_easy_setopt(curl,CURLOPT_URL,"https://qinyuan-test.yunext.com/web/api/app/user/login");
         curl_easy_setopt(curl,CURLOPT_POST,1L);
         // curl_easy_setopt(curl,CURLOPT_POSTFIELDS,json_data);
         
