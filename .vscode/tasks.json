@@ -11,7 +11,9 @@
                 "-o",
                 "main",
                 "main.c",
+                "cJSON.c",
                 "./curl/*.c",
+                "./curl/ota/*.c",
                 "./http/*c",
                 "-lcurl"
             ],

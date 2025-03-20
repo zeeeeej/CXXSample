@@ -1,5 +1,12 @@
 {
     "files.associations": {
-        "curldemo.h": "c"
+        "curldemo.h": "c",
+        "string.h": "c",
+        "unistd.h": "c",
+        "pthread.h": "c",
+        "stdio.h": "c",
+        "curl.h": "c",
+        "ota.h": "c",
+        "cjson.h": "c"
     }
 }

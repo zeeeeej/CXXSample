@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>沁园智联APP隐私保护指引</title>
+</head>
+<style type="text/css">
+    @media screen and (min-width: 320px) {
+
+        /* line 6, ../sass/cemetery.scss */
+        html {
+            font-size: 10px !important;
+        }
+    }
+
+    @media screen and (min-width: 360px) {
+
+        /* line 11, ../sass/cemetery.scss */
+        html {
+            font-size: 11.25px !important;
+        }
+    }
+
+    @media screen and (min-width: 400px) {
+
+        /* line 16, ../sass/cemetery.scss */
+        html {
+            font-size: 12.5px !important;
+        }
+    }
+
+    @media only screen and (min-width: 481px) {
+
+        /* line 21, ../sass/cemetery.scss */
+        html {
+            font-size: 94% !important;
+        }
+    }
+
+    @media only screen and (min-width: 561px) {
+
+        /* line 26, ../sass/cemetery.scss */
+        html {
+            font-size: 109% !important;
+        }
+    }
+
+    @media screen and (min-width: 640px) {
+
+        /* line 31, ../sass/cemetery.scss */
+        html {
+            font-size: 20px !important;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+        /* line 36, ../sass/cemetery.scss */
+        html {
+            font-size: 22px !important;
+        }
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        /*background: #f1f1f1;*/
+        padding: 0px 15px;
+    }
+
+    .content {
+        font-size: 1.1rem;
+        line-height: 24px;
+        color: #666;
+        word-break: break-word;
+    }
+
+    .header {
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+    }
+
+    p {
+        margin: 5px 0px;
+    }
+
+    h4 {
+        color: #009BDE;
+    }
+
+    .bold {
+        font-weight: 900;
+        color: #000;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    th {
+        width: 250px;
+    }
+</style>
+
+<body>
+<div class="content">
+    <p class="header">沁园智联APP隐私保护指引</p>
+    <p>更新日期：2024年11月18日</p>
+    <p>生效日期：2024年11月18日</p>
+    <p>沁园智联APP（以下称“沁园智联”）是一款智能设备管理软件，由浙江沁园水处理科技有限公司（注册地为宁波杭州湾新区兴慈一路358号。以下亦简称为我们或者沁园）运营管理。为说明沁园智联会如何收集、使用和存储您的个人信息及您享有何种权利，我们将通过本指引向您阐述相关事宜，其中要点如下：
+    </p>
+    <p>
+        i. 我们将逐一说明我们收集的您的个人信息类型及其对应的用途，以便您了解我们针对某一特定功能所收集的具体个人信息的类别、使用理由及收集方式。
+    </p>
+    <p>
+        ii.
+        当您使用一些功能时，我们会在获得您的同意后，申请一些特定的权限，例如在扫描二维码添加设备时会申请摄像头权限，在设备配网（IoT设备连接您家的路由器)的过程中申请位置权限。除非按照相关法律法规要求必须收集，拒绝提供这些信息仅会使您无法使用相关特定功能，但不影响您正常使用沁园智联的其他功能。
+    </p>
+    <p>
+        iii.
+        您可以通过本指引所列途径访问、更正、删除您的个人信息，也可以撤回同意、注销帐号、投诉举报以及设置隐私功能。
+    </p>
+    <p class="bold">
+        iv. 为了在本指引下收集你的信息，或者向您提供服务、优化我们的服务以及保障您的帐号安全，我们将需要向您索取相关的权限；其中的敏感权限例如精确地理位置、相机等均不会默认开启，只有在您明确同意后才会向我们授权。
+    </p>
+    <p>
+        需要特别说明的是，获得敏感权限是我们收集特定信息的必要而非充分条件。我们获得具体某一项敏感权限并不代表我们必然会收集您的相关信息；即使我们已经获得敏感权限，也仅在必要时、根据本指引来收集您的相关信息。
+    </p>
+    <p>
+        如您想了解更加详尽的信息，请根据以下索引阅读相应章节：
+    </p>
+    <p>
+        1. 我们收集的信息
+    </p>
+    <p>
+        2. 信息的存储
+    </p>
+    <p>
+        3. 信息安全
+    </p>
+    <p>
+        4. 我们如何使用信息
+    </p>
+    <p>
+        5. 对个人信息对外共享、转让、公开披露的情况
+    </p>
+    <p>
+        6. 第三方SDK目录
+    </p>
+    <p>
+        7. 您的权利
+    </p>
+    <p>
+        8. 变更
+    </p>
+    <p>
+        9. 其它
+    </p>
+    <p>
+        10. 联系我们
+    </p>
+    <p>
+        附录一：关键词定义
+    <br/>
+    <p class="bold">
+        1.我们收集的信息
+    </p>
+    <p>
+        在您使用沁园智联服务的过程中，沁园智联会按照如下方式收集您在使用服务时主动提供或因为使用服务而产生的信息，用以向您提供服务、优化我们的服务以及保障您的帐号安全：
+    </p>
+    <p>
+        1.1
+        当您注册沁园智联服务时，我们会收集您的手机号码，收集这些信息是为了帮助您完成沁园智联注册，保护您沁园智联帐号的安全。
+        <span class="bold">
+               沁园智联以手机号码作为用户的唯一识别信息。若您不提供这类信息，您可能无法正常使用我们的服务。
+            </span>
+    </p>
+    <p>
+        1.2
+        当您使用沁园智联服务时，为保障您正常使用我们的服务，维护我们服务的正常运行，改进及优化我们的服务体验以及保障您的帐号安全，我们会收集系统信息（设备类型、设备型号、系统版本）、操作日志、服务日志信息（如您在沁园智联进行搜索、查看操作的记录、服务故障信息等信息）等日志信息，这类信息是为提供服务必须收集的基础信息。
+    </p>
+    <p>
+        1.3
+        当您使用沁园智联服务时，我们使用“极光SDK”(第三方)来为您推送系统消息。"极光SDK"会搜集您的您的设备参数及系统信息（设备类型、设备型号、系统版本、及相关硬件信息），设备标识符（IMEI、IDFA、Android ID、GID、MAC、蓝牙MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息，网络信息(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)、 位置信息(粗略定位与精确位置)，应用信息（APP应用列表及活跃状态信息）以便"极光推送"服务能把系统通知精准送达给您以及实现区域推送能力。
+    </p>
+    <p>
+        1.4 当您使用沁园智联服务时，为了保证您能正确的连接您的IoT(物联网)设备，我们将与 “阿里云飞燕平台”（第三方）、“阿里云生活物联网平台” （第三方）、“阿里云账号及用户SDK” （第三方）、“阿里云推送SDK”
+        （第三方）、“淘宝开放平台(com.taobao.*)”（第三方）以及他们关联的第三方SDK共享您的设备参数及系统信息（设备类型、设备型号、系统版本、及相关硬件信息），设备标识符（IMEI、IDFA、Android ID、GID、MAC、蓝牙MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息。 其中UAID（Uniform Anonymous Identifier）为电信运营商推出的统一匿名标识）信息，网络信息(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)、 位置信息(粗略定位与精确位置)，应用信息（APP应用列表及活跃状态信息）等信息用作Identity关联关系校验（安全身份认证），配网&配网控制等问题诊断，体验优化，问题排查以便您能更方便的控制您的物联网设备。这类信息为提供服务必须收集的基础信息。如果我们禁止这些SDK收集以上信息，那么我们将无法帮助您的设备联网，也无法使您可以监控或者控制您的设备。
+    </p>
+    <p>
+        1.5 当您使用沁园智联时，我们会存储一些中间状态来保证提供更好的交互，所以存储的权限时必须的，但是并不会存储与用户个人信息相关的内容，也不会尝试去读取不是由沁园智联产生的数据。如果我们无法访问您手机的存储空间，那么我们无法保证我们的应用在应用切换，应用重启，手机重启后可以正常的为您提供正常的服务。
+    </p>
+    <p class="bold">
+        1.6 当您添加Wi-Fi、蓝牙设备时，需要获取您的网络信息(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)。由于某些操作系统的要求，在获取这些信息时必须获得您的用户位置信息(粗略定位与精确位置)授权。另外，我们也会在获得你的授权之后与“高德地图”（
+        第三方）共享您的位置信息(粗略定位与精确位置)，以方便未来我们提供更加精确的本地服务。我们会在获得您的自主选择同意后，向您申请用户位置信息(粗略定位与精确位置)的权限，目的是为了向您提供该服务。该信息属于敏感信息，拒绝提供该信息仅会使您无法使用上述功能，但不影响您正常使用沁园智联的其他功能。此外，您也可以随时联系我们要求我们删除所有与您相关的位置信息(粗略定位与精确位置)
+    </p>
+    <p>
+        1.7 当您在扫码添加设备时，我们会向您申请摄像头的权限用于扫码设备上的二维码，拒绝提供该权限会使您无法使用上述功能，您依然可以使用手动添加的方式进行设备添加。
+    </p>
+    <p>
+        1.8 您可以在您的个人信息栏中填写昵称、性别、地区、详细地址等，这些信息将被上传并存储在我们的服务器中，以便您在其他设备上登录沁园智联时使用该等信息。您也可以随时修改、删除该等信息。
+    </p>
+    <p>
+        1.9 我们会在您想要拨打客服电话时向您申请电话权限，以便直接调起系统拨打电话的功能。如果您拒绝，您不能直接在服务中拨打客服电话，但是您依然可以手动拨打客服电话或者使用其他服务。
+    </p>
+    <p>
+        1.10 当您开启剪切板权限后，我们将会在编辑文本（修改昵称，意见反馈，修改密码，添加设备等场景）的时候，使用剪切板进行复制和粘贴以提升您的用户体验。
+    </p>
+    <p>
+        另外，根据相关法律法规及国家标准，以下情形中，我们可能会收集、使用您的相关个人信息无需征求您的授权同意：
+    </p>
+    <p>
+        a) 与个人信息控制者履行法律法规规定的义务相关的；
+    </p>
+    <p>
+        b) 与国家安全、国防安全直接相关的；
+    </p>
+    <p>
+        c) 与公共安全、公共卫生、重大公共利益直接相关的；
+    </p>
+    <p>
+        d) 与刑事侦查、起诉、审判和判决执行等直接相关的；
+    </p>
+    <p>
+        e) 出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的；
+    </p>
+    <p>
+        f) 所涉及的个人信息是个人信息主体自行向社会公众公开的；
+    </p>
+    <p>
+        g) 根据个人信息主体要求签订和履行合同所必需的；
+    </p>
+    <p>
+        h) 从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道；
+    </p>
+    <p>
+        i) 维护所提供产品或服务的安全稳定运行所必需的，如发现、处置产品或服务的故障；
+    </p>
+    <p>
+        j) 个人信息控制者为新闻单位，且其开展合法的新闻报道所必需的；
+    </p>
+    <p>
+        k) 个人信息控制者为学术研究机构，出于公共利益开展统计或学术研究所必要， 且其对外提供学术研究或描述的结果时，对结果中所包含的个人信息进行去标 识化处理的。
+    </p>
+    <p>
+        请您理解，我们向您提供的功能和服务是不断更新和发展的，如果某一功能或服务未在前述说明中且收集了您的信息，我们会通过页面提示、交互流程、网站公告等方式另行向您说明信息收集的内容、范围和目的，以征得您的同意。
+    </p>
+    <p>
+        请您注意，目前沁园智联不会主动从沁园集团外的第三方获取您的个人信息。如未来为业务发展需要从第三方间接获取您个人信息，我们会在获取前向您明示您个人信息的来源、类型及使用范围，如沁园开展业务需进行的个人信息处理活动超出您原本向第三方提供个人信息时的授权同意范围，我们将在处理您的该等个人信息前，征得您的明示同意；此外，我们也将会严格遵守相关法律法规的规定，并要求第三方保障其提供的信息的合法性。
+    </p>
+    <br/>
+    <p class="bold">
+        2.信息的存储
+    </p>
+    <p class="bold">
+        2.1 信息存储的地点
+    </p>
+    <p>
+        我们会按照法律法规规定，将境内收集的用户个人信息存储于中国境内。如果您的个人信息存储地点从中国境内转移到境外的，我们将严格依照法律的规定执行。
+    </p>
+    <p class="bold">
+        2.2 信息存储的期限
+    </p>
+    <p>
+        一般而言，我们仅在为实现目的所必需的时间内保留您的个人信息，例如：
+    </p>
+    <p>
+        <span class="bold">
+            手机号码：
+        </span>
+        若您需要使用沁园智联服务，我们需要一直保存您的手机号码，以保证您正常使用该服务，当您注销沁园智联帐户后，我们将删除相应的信息。
+    </p>
+    <p>
+        当我们的产品或服务发生停止运营的情形时，我们将以推送通知、公告等形式通知您，并在合理的期限内删除您的个人信息或进行匿名化处理（所谓“匿名化处理”，是指通过对个人信息的技术处理，使得个人信息主体无法被识别，且处理后的信息不能被复原的过程。个人信息经匿名化处理后所得的信息不属于个人信息。）。
+    </p>
+    <br/>
+    <p class="bold">
+        3.信息安全
+    </p>
+    <p>
+        我们努力为用户的信息安全提供保障，以防止信息的丢失、不当使用、未经授权访问或披露。
+    </p>
+    <p>
+        我们将在合理的安全水平内使用各种安全保护措施以保障信息的安全。例如，我们会使用加密技术（例如，SSL）、匿名化处理等手段来保护您的个人信息。
+    </p>
+    <p>
+        我们通过不断提升的技术手段加强安装在您设备端的软件的安全能力，以防止您的个人信息泄露。例如，我们为了安全传输会在您设备本地完成部分信息加密的工作；为了预防病毒、木马程序或其他恶意程序、网站，我们可能会了解您设备安装的应用信息（APP应用列表及活跃状态信息）、正在运行的进程信息或设备内存中寄存的数据；为了预防诈骗、盗号、仿冒他人等不法行为和进行安全检查可能会分析利用唯一设备标识符（IMEI、IDFA、Android ID、GID、MAC、蓝牙MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息。 其中UAID（Uniform Anonymous Identifier）为电信运营商推出的统一匿名标识）、登陆IP地址、操作日志、地理位置信息(粗略定位与精确位置)等数据，以便于采取安全措施或进行安全提醒等。
+    </p>
+    <p>
+        我们会尽力保护您的个人信息。
+        <span class="bold">
+            我们也请您理解，任何安全措施都无法做到100%安全。
+        </span>
+    </p>
+    <br/>
+    <p class="bold">
+        4.我们如何使用信息
+    </p>
+    <p class="bold">
+        我们可能将通过某些功能所收集的信息用于我们的其他服务。例如，我们可能将您在使用我们某一功能或服务时我们收集的信息，在另一功能或服务中用于向您或提供特定内容，包括但不限于提供服务、保护用户权益或保护沁园智联生态安全等。
+    </p>
+    <p>
+        为了确保服务的安全，帮助我们更好地了解我们应用程序的运行情况，我们可能记录相关信息，例如，您使用应用程序的频率、崩溃数据、总体使用情况、性能数据以及应用程序的来源。我们不会将我们存储在分析软件中的信息与您在应用程序中提供的任何个人身份信息相结合
+    </p>
+    <p>
+        如我们使用您的个人信息，超出了与收集时所声称的目的及具有直接或合理关联的范围，我们将在使用您的个人信息前，再次向您告知并征得您的明示同意。
+    </p>
+    <br/>
+    <p class="bold">
+        5.对个人信息对外共享、转让、公开披露的情况
+    </p>
+    <p class="bold">
+        5.1.对个人信息对外共享
+    </p>
+    <p>
+        目前，除了为了某些特定功能而引入的第三方SDK在我们的APP上本机采集的情况外，我们不会主动共享您的个人信息至沁园集团外的第三方，如存在其他共享或转让您的个人信息或您需要我们将您的个人信息共享至沁园集团外的第三方情形时，我们会直接征得或确认第三方征得您对上述行为的明示同意，但因保护用户权益或保护沁园智联生态安全需要除外。
+    </p>
+    <p class="bold">
+        5.2.对个人信息对外转让
+    </p>
+    <p>
+        我们不会主动转让您的个人信息至沁园集团外的第三方，如存在其他转让您的个人信息或您需要我们将您的个人信息转让至沁园集团外的第三方情形时，我们会直接征得或确认第三方征得您对上述行为的明示同意，但因保护用户权益或保护沁园智联生态安全需要除外。
+    </p>
+    <p class="bold">
+        5.3.对个人信息对外公开披露
+    </p>
+    <p>
+        我们不会对外公开披露其收集的个人信息，如必须公开披露时，我们会向您告知此次公开披露的目的、披露信息的类型及可能涉及的敏感信息，并征得您的明示同意。
+    </p>
+    <p>
+        随着我们业务的持续发展，我们有可能进行合并、收购、资产转让等交易，我们将告知您相关情形，按照法律法规及不低于本指引所要求的标准继续保护或要求新的控制者继续保护您的个人信息。
+    </p>
+    <p class="bold">
+        5.4.例外情况
+    </p>
+    <p>
+        另外，根据相关法律法规及国家标准，以下情形中，我们可能会共享、转让、公开披露个人信息无需事先征得个人信息主体的授权同意：
+    </p>
+    <p>
+        a) 与我们履行法律法规规定的义务相关的；
+    </p>
+    <p>
+        b) 与国家安全、国防安全直接相关的；
+    </p>
+    <p>
+        c) 与公共安全、公共卫生、重大公共利益直接相关的；
+    </p>
+    <p>
+        d) 与刑事侦查、起诉、审判和判决执行等直接相关的；
+    </p>
+    <p>
+        e) 出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的；
+    </p>
+    <p>
+        f) 个人信息主体自行向社会公众公开的个人信息；
+    </p>
+    <p>
+        g) 从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。
+    </p>
+    <br/>
+    <p class="bold">
+        6.第三方SDK目录
+    </p>
+    <p>
+        为了保障沁园智联的稳定运行或实现相关功能，我们可能会接入由第三方提供的软件开发包（SDK）。
+    </p>
+    <p>
+        我们对可能接入的相关第三方SDK在以下目录中列明。您可以通过相关链接查看第三方的数据使用和保护规则。请注意，第三方SDK可能由于版本升级、策略调整等原因导致其个人信息处理类型发生变化，请以其公示的官方说明为准。
+    </p>
+    <p class="bold">
+        6.1 收集且共享个人信息的SDK
+    </p>
+    <p class="bold">
+        6.1.1 极光
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        深圳市和讯华谷信息技术有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        极光SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        设备参数及系统信息（设备类型、设备型号、系统版本、及相关硬件信息）(设备类型、设备型号、系统版本、及相关硬件信息),设备标识符（IMEI、IDFA、Android ID、GID、MAC、蓝牙MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息。 其中UAID（Uniform Anonymous Identifier）为电信运营商推出的统一匿名标识）（IMEI、IDFA、Android ID、GID、
+        MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息。 其中UAID（Uniform Anonymous Identifier）为电信运营商推出的统一匿名标识）,
+        网络信息(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)与 位置信息(粗略定位与精确位置)（粗略定位与精确位置）, APP应用列表及活跃状态信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        推送消息
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        当用户同意隐私申明开始正常使用我们的系统后，我们的应用就将启动极光SDK准备接受来自平台的重要消息的推送。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://www.jiguang.cn/license/privacy" target="_blank">
+            https://www.jiguang.cn/license/privacy
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.2 OPPO
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        广东欢太科技有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        OPPO消息推送SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        设备相关信息（如IMEI或OAID，Serial Number，IMSI，User ID，Android ID，Google Advertising ID, 手机Region设置，设备型号，手机电量，手机操作系统版本及语言）、使用推送服务的应用信息（APP应用列表及活跃状态信息）（如APP包名及版本号，运行状态）、推送SDK版本号、网络相关信息（如IP或域名连接结果，当前网络类型）、消息发送结果、通知栏状态（如通知栏权限、用户点击行为），锁屏状态（如是否锁屏，是否允许锁屏通知）。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        推送消息
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">申请权限：</span>
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://open.oppomobile.com/new/developmentDoc/info?id=10288" target="_blank">
+            https://open.oppomobile.com/new/developmentDoc/info?id=10288
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.3 华为
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        华为软件技术有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        华为消息推送SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        应用基本信息（AppID，推送服务和HMS Core应用版本号，华为推送SDK版本号，应用版本号和应用包名）；应用内设备标识符（IMEI、IDFA、Android ID、GID、MAC、蓝牙MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息。 其中UAID（Uniform Anonymous Identifier）为电信运营商推出的统一匿名标识）（AAID和Push Token）；设备的硬件信息（设备类型、设备型号）；系统基本信息（系统类型（如Android，HarmonyOS等）和系统版本）；系统设置信息（国家码）；设备位置信息(粗略定位与精确位置)（粗略位置、精确位置）；活动识别。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        1、提供消息推送服务；2、统计华为推送SDK接口调用成功率
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/sdk-data-security-0000001050042177" target="_blank">
+            https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/sdk-data-security-0000001050042177
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.4 魅族
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        魅族通讯设备有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        魅族推送SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        设备相关信息（如IMEI或OAID，Serial Number，IMSI，User ID，Android ID，Google Advertising ID, 手机Region设置，设备型号，手机电量，手机操作系统版本及语言）、使用推送服务的应用信息（APP应用列表及活跃状态信息）（如APP包名及版本号，运行状态）、推送SDK版本号、网络相关信息（如IP或域名连接结果，当前网络类型）、消息发送结果、通知栏状态（如通知栏权限、用户点击行为），锁屏状态（如是否锁屏，是否允许锁屏通知）。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        提供消息推送服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://www.meizu.com/legal.html" target="_blank">
+            https://www.meizu.com/legal.html
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.5 VIVO
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        维沃移动通信有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        VIVO消息推送SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        设备相关信息（如IMEI或OAID，Serial Number，IMSI，User ID，Android ID，Google Advertising ID, 手机Region设置，设备型号，手机电量，手机操作系统版本及语言）、使用推送服务的应用信息（APP应用列表及活跃状态信息）（如APP包名及版本号，运行状态）、推送SDK版本号、网络相关信息（如IP或域名连接结果，当前网络类型）、消息发送结果、通知栏状态（如通知栏权限、用户点击行为），锁屏状态（如是否锁屏，是否允许锁屏通知）。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        提供消息推送服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://www.vivo.com.cn/about-vivo/privacy-policy" target="_blank">
+            https://www.vivo.com.cn/about-vivo/privacy-policy
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.6 小米
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        小米科技有限责任公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        小米开放平台消息推送SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        设备相关信息（OAID，Android ID，IDFV）；使用推送服务的应用信息（APP应用列表及活跃状态信息）（如APP包名及版本号，运行状态）；收集消息创建、送达和点击时间并暂存从第三方应用处获得并推送给您的消息内容；设备相关信息如设备厂商、设备型号、设备内存、操作系统版本、小米推送SDK版本、设备归属地（国家或地区）、SIM卡运营商名称、当前网络类型。其中当前网络类型、SIM卡运营商名称仅在设备本地读取，不会上传至小米服务器；通知栏设置信息，包括是否屏蔽通知栏、是否设置锁屏弹出消息等。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        提供消息推送服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://dev.mi.com/console/doc/detail?pId=1822" target="_blank">
+            https://dev.mi.com/console/doc/detail?pId=1822
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.7 阿里云
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里云计算有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里飞燕SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        用户信息类：用户名、手机号、邮箱、IP、区域（多语言）
+        手机设备信息类：
+            硬件：如mac、蓝牙mac、IMEI、IMSI、IDFA、运营商、设备型号、路由器信息
+            软件：如系统类型、操作系统版本、固件信息、
+            开关查询：gps、蓝牙
+            连接的网络信息(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)：Wi-Fi、mobile等
+        设备运行状态信息：如灯的开关状态（以及物模型里定义的设备相关属性）、设备端支持的服务查询，比如设备支持的控制能力
+        智能设备（即IOT设备）信息：设备mac（Wi-Fi 蓝牙）、连接的路由器信息（ssid、mac）、Wi-Fi信号信息（RSSI、channel信息、频率等）、IP地址、设备固件信息、芯片类型等硬件信息
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        智能设备与云端交互的主要SDK
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        用于实现APP对智能产品的联网，绑定，查看，控制，固件升级等功能。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <!--<a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202101261803_44791.html?spm=a2c4g.11186623.0.0.29372fd4SLmnzl" target="_blank">
+            https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202101261803_44791.html?spm=a2c4g.11186623.0.0.29372fd4SLmnzl
+        </a>-->
+		<a href="https://terms.alicdn.com/legal-agreement/terms/privacy_sdk_description/20220901154750955/20220901154750955.html?spm=a2c4g.451421.0.0.498221f9bXpqk0" target="_blank">
+            https://terms.alicdn.com/legal-agreement/terms/privacy_sdk_description/20220901154750955/20220901154750955.html?spm=a2c4g.451421.0.0.498221f9bXpqk0
+        </a>
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里云计算有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里云推送 SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        提供消息推送服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202112071754_83380.html?spm=a2c4g.11186623.0.0.239829ecSoQfO0" target="_blank">
+            https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202112071754_83380.html?spm=a2c4g.11186623.0.0.239829ecSoQfO0
+        </a>
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里巴巴云计算（北京）有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里云号码认证SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        本机号码一键登录和认证
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        登录和注册。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202112211045_86198.html?spm=a2c4g.295966.0.0.7ea955cbfVA4bp" target="_blank">
+            https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202112211045_86198.html?spm=a2c4g.295966.0.0.7ea955cbfVA4bp
+        </a>
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里巴巴云计算（北京）有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里云数据分析SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        手机APP的统计信息
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        崩溃分析，行为分析等
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://help.aliyun.com/document_detail/30022.html?spm=a2c4g.57429.0.0.490930e5c6jXV1" target="_blank">
+            https://help.aliyun.com/document_detail/30022.html?spm=a2c4g.57429.0.0.490930e5c6jXV1
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.8 中国移动
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        中国移动通信集团有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        中国移动号码认证SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        本机号码、设备标识（IMSI, IMEI）、运营商类型、网络制式（2G、3G、4G、5G）、网络类型（仅Wi-Fi、仅数据流量+Wi-Fi），浏览器指纹。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        用于提供一键注册服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        一键注册时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://wap.cmpassport.com/resources/html/contract2.html" target="_blank">
+            https://wap.cmpassport.com/resources/html/contract2.html
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.9 高德
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        高德软件有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        高德定位SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        位置信息(粗略定位与精确位置)（经纬度、精确位置、粗略位置）; 设备信息(如IP 地址、GNSS信息、Wi-Fi状态、Wi-Fi参数、Wi-Fi列表、基站信息、信号强度的信息、蓝牙信息、传感器信息（矢量、加速度、压力）、设备信号强度信息); 设备标识信息（IMEI、IDFA、IDFV、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）、当前应用信息（APP应用列表及活跃状态信息）（应用名、应用版本号）、设备参数及系统信息（设备类型、设备型号、系统版本、及相关硬件信息）（系统属性、设备型号、操作系统）。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        用于提供定位服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        当用户同意获取沁园定制的AI推荐智能本地服务商服务时，获取并记录用户位置信息(粗略定位与精确位置)用于后期服务。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://lbs.amap.com/pages/privacy" target="_blank">
+            https://lbs.amap.com/pages/privacy
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.10 阿里UC
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        广州市动景计算机科技有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        岳鹰全景监控SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        基础信息（客户端APP唯一标识、日志类型、SDK安装唯一标志、网关采集的请求出口IP）; 设备联网状态; 系统错误日志、系统错误等崩溃日志;手机设备信息（机型、内存等）；应用运行错误信息、APP应用唯一标志。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        飞燕sdk的崩溃监测组件
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        监控飞燕sdk的运行情况并分析其性能和稳定性。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://yueying-docs.effirst.com/privacy.html" target="_blank">
+            https://yueying-docs.effirst.com/privacy.html
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.1.11 淘宝
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里巴巴科技有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        淘宝通道服务SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        推送淘宝消息
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用,为阿里推送服务的依赖项。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202112071754_83380.html?spm=a2c4g.11186623.0.0.239829ecSoQfO0" target="_blank">
+            https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202112071754_83380.html?spm=a2c4g.11186623.0.0.239829ecSoQfO0
+        </a>
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        浙江淘宝网络有限公司、淘宝（中国）软件有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Mtop SDK: com.taobao.*（如com.taobao.wireless）
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        淘宝开放平台技术服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        帮助用户使用淘宝账号登录，将信息分享至淘宝。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2145.7268393.0.0.f9aa5d7ccvMkrK" target="_blank">
+            https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2145.7268393.0.0.f9aa5d7ccvMkrK
+        </a>
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        浙江淘宝网络有限公司、淘宝（中国）软件有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        淘宝登录模块SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        帮助用户使用淘宝账号登录，将信息分享至淘宝
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        帮助用户使用淘宝账号登录，将信息分享至淘宝。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2145.7268393.0.0.f9aa5d7ccvMkrK" target="_blank">
+            https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2145.7268393.0.0.f9aa5d7ccvMkrK
+        </a>
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        浙江淘宝网络有限公司、淘宝（中国）软件有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里设备标识SDK(TaobaoUtdid、阿里云Utdid)
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        包括设备标识符（IMEI、IDFA、Android ID、MAC、OAID、IMSI、MEID、OpenUDID、GUID、ICCID及其他设备相关信息）、应用信息（运行中的进程信息、应用崩溃信息、通知开关状态、应用安装列表及其他应用相关信息）、设备参数及系统信息（设备类型、设备型号、操作系统、硬件序列号及硬件相关信息），设备网络环境信息（IP地址、WiFi信息、蓝牙信息、设备传感器、WLAN接入点如SSID、BSSID、基站信息及其他网络相关信息）、运营商信息、广播组件通讯信息。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        utdid为设备生成唯一deviceid的一个基础类库
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        阿里SDK基础组件，为设备生成唯一标识信息，飞燕SDK的依赖库。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <p>
+        <span class="bold">隐私政策：</span>
+        <a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2145.7268393.0.0.f9aa5d7ccvMkrK" target="_blank">
+            https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2145.7268393.0.0.f9aa5d7ccvMkrK
+        </a>
+    </p>
+    <br/>
+    <p class="bold">
+        6.2 收集但不共享个人信息的SDK
+    </p>
+    <p class="bold">
+        6.2.1 阿里巴巴
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里巴巴科技有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里巴巴网络 SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        网络信息(IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址)（IP, MAC, user agent等）。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        网络访问
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        阿里云飞燕SDK网络通讯部分依赖库。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+
+
+    <p class="bold">
+        6.2.2 开源
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Jake Wharton
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Butter Knife
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        IP地址。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        视图注入
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        视图注入时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.2.3 ZXing
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        ZXing
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        ZXing Android SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        传感器列表和传感器信息
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        二维码解析
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        当需要解码二维码的时候。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.2.4 FastBle
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        FastBle
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        FastBle Android SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        设备信息，蓝牙信息，网络信息等。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        蓝牙连接
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        当与设备进行蓝牙配网时。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3 不收集个人信息的SDK
+    </p>
+    <p class="bold">
+        6.3.1 腾讯
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        腾讯控股有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        微信SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        不适用。
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        跳转微信小程序商城
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        用户可以一键跳转到沁园官方微信小程序商城。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.2 华为
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        华为软件技术有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        华为日志SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        记录APP运行日志
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在调用HMS服务时用于记录APP运行日志。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        华为软件技术有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        华为分析SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        华为推送服务的依赖服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        华为软件技术有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        华为更新SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        华为推送服务的依赖服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        华为软件技术有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        华为HMS核心功能SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        华为推送服务的依赖服务
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在向用户推送通知或消息时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.3 阿里云
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里云计算有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里OSS对象存储SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        云端日志存储
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        存储阿里飞燕SDK运行过程中产生的日志。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里云计算有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里云beacon SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        阿里云ibeacon控制基础库
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        飞燕SDK ibeacon功能的依赖项。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.4 阿里巴巴
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里巴巴科技有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        阿里无线保镖SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        对APP进行安全保护
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        提供全生命周期的安全保护。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        SDK本机采集
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        阿里巴巴科技有限公司
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        fastjson
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        对Json类型数据进行编码和反编码工作
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        用于在于云端进行数据交换过程中在客户端处理Json格式的数据。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.5 Google
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Google
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Firebase common SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Firebase SDK的公共部分， google推送SDK的依赖项
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        无海外业务，并未使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Google
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Chromium
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        调起webview
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在一键登录页和2G设备详情页中调起Webview。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.6 Bumptech
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Bumptech
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Glide Annotations SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Glide图片处理库注解操作
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        处理图片时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Bumptech
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Glide Annotations Complier SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Glide图片处理库注解操作
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        处理图片时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Bumptech
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Glide Mocks SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Glide图片实例库
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Bumptech
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Glide GIF Decoder SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Glide图片GIF处理
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Bumptech
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Glide DiskLRUCache SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Glide硬盘缓存
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        处理图片时使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.7 Facebook
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Facebook
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Facebook Soloader SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        加载so库文件
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        当需要加载so库文件的时候使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Facebook
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Facebook Common Android SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Facebook  SDK的公共部分
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        调用Facebook SDK的时候。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.8 Kotlinx
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Kotlinx
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Kotlinx Coroutines Android SDK
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        协程管理
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        当需要使用协程进行并发操作的时候使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.9 Square
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Square
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        okhttp
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        网络请求框架
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        向云端发起网络请求所使用的框架。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Square
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        retrofit
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        Http请求工具
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        向云端发起网络请求所使用的框架，对okhttp的封装。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Square
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        picasso
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        图片下载和缓存
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        下载静态图片（说明书，配网指引等）使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        6.3.10 开源社区
+    </p>
+    <p>
+        <span class="bold">机构名称：</span>
+        Philipp Jahoda（PhilJay）
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        MPAndroidChart
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        图标渲染
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        向用户展示图表（用水信息）的时候进行图表渲染。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        Eclipse Foundation
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        Eclipse Paho
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        用于和云端进行Mqtt协议的通讯
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        向云端订阅设备端上报的消息，及时的显示给用户。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        ReactiveX
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        RxJavaReactiveStreams
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        对流数据进行响应式编程处理
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        对于从云端/设备端获得的流式数据进行响应式处理的时候使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        ReactiveX
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        RxJava
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        响应式编程框架
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        进行响应式编程使用。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p>
+        <span class="bold">机构名称：</span>
+        树朾(scwang90)
+    </p>
+    <p>
+        <span class="bold">产品/类型：</span>
+        SmartRefreshLayout
+    </p>
+    <p>
+        <span class="bold">使用信息：</span>
+        无
+    </p>
+    <p>
+        <span class="bold">使用目的：</span>
+        下拉式刷新管理
+    </p>
+    <p>
+        <span class="bold">使用场景：</span>
+        在设备管理页，设备详情页进行下拉刷新管理。
+    </p>
+    <p>
+        <span class="bold">共享方式：</span>
+        不共享
+    </p>
+    <br/>
+    <p class="bold">
+        7.您的权利
+    </p>
+    <p>
+        在您使用沁园智联期间，为了您可以更加便捷地访问、更正、删除您的个人信息，同时保障您撤回对个人信息使用的同意及注销帐号的权利，我们在产品设计中为您提供了相应的操作设置，您可以参考下面的指引进行操作。此外，我们还设置了投诉举报渠道，您的意见将会得到及时的处理。
+    </p>
+    <p>
+        请注意，不同操作系统、沁园智联软件的不同版本之间，操作设置可能存在差异；此外，为了优化您的使用体验，我们也可能对操作设置进行调整。故如下指引仅供参考。
+    </p>
+    <p class="bold">
+        7.1 访问个人信息
+    </p>
+    <p>
+        7.1.1 访问手机号、头像、昵称（即“名字”，下同）、性别、所在区域、详细地址等基本信息：
+    </p>
+    <p>
+        1) 进入沁园智联后，点击“我的”；
+    </p>
+    <p>
+        2) 点击头像栏；
+    </p>
+    <p>
+        3) 进行信息查询访问。
+    </p>
+    <p class="bold">
+        7.2 删除个人信息
+    </p>
+    <p>
+        7.2.1 删除头像、昵称（即“名字”，下同）、性别、所在区域、详细地址等基本信息：
+    </p>
+    <p>
+        1) 进入沁园智联后，点击“我的”；
+    </p>
+    <p>
+        2) 点击头像栏；
+    </p>
+    <p>
+        3) 修改对应的内容设置为空并保存
+    </p>
+    <p class="bold">
+        7.3 更正个人信息
+    </p>
+    <p>
+        7.3.1 更改头像、昵称（即“名字”，下同）、性别、所在区域、详细地址等基本信息：
+    </p>
+    <p>
+        1) 进入沁园智联后，点击“我的”；
+    </p>
+    <p>
+        2) 点击头像栏；
+    </p>
+    <p>
+        3) 修改对应的内容并保存
+    </p>
+    <p class="bold">
+        7.4 撤销已同意的授权
+    </p>
+    <p>
+        7.4.1 撤销系统权限的授权
+    </p>
+    <p>
+        请将您的问题发送至privacy@qinyuan.cn或拨打沁园服务热线(400-111-1222)与我们联系。或者请参照7.5章，注销用户并删除我们的应用，注销用户且删除应用后我们将不再收集您手机上的信息。您重新安装和注册后我们将会重新申请您的授权。
+    </p>
+    <p class="bold">
+        7.5 注销帐号
+    </p>
+    <p>
+        7.5.1 注销沁园智联帐号
+    </p>
+    <p>
+        1) 进入沁园智联后，点击“我的”；
+    </p>
+    <p>
+        2) 点击“关于沁园”；
+    </p>
+    <p>
+        3) 点击“用户协议和隐私政策”；
+    </p>
+    <p>
+        4) 点击“永久注销账号”；
+    </p>
+    <p class="bold">
+        注：当您注销帐号后，我们将按照《中华人民共和国网络安全法》等法律法规的规定留存您的相关信息；超出法定保存期限后，我们将删除或匿名化处理您的个人信息。
+    </p>
+    <p class="bold">
+        7.6 投诉举报
+    </p>
+    <p>
+        1) 进入沁园智联后，点击“我的”；
+    </p>
+    <p>
+        2) 点击“意见反馈”；
+    </p>
+    <p class="bold">
+        8.变更
+    </p>
+    <p>
+        8.1 为了给您提供更好的服务，沁园智联APP及相关服务将不时更新与变化，我们会适时对本隐私保护指引进行修订，这些修订构成本隐私保护指引的一部分并且具有等同于本隐私保护指引的效力，未经您明确同意，我们不会削减您依据当前生效的本隐私保护指引政策所应享受的权利。
+    </p>
+    <p>
+        8.2 本APP所使用的用户协议，隐私保护指引等协议合约和规章制度修订，使用基于版本的控制管理，将通过APP软件设置页面方式公布，或其他适当方式提醒您更新的内容，以便您及时了解本APP相关协议的最新版本。
+    </p>
+    <br/>
+    <p class="bold">
+        9.其他
+    </p>
+    <p>
+        沁园
+        <a href="https://www.qinyuan.cn/agreement.aspx">《隐私政策》</a>
+        是沁园统一适用的一般性隐私条款，其中所规定的用户权利及信息安全保障措施均适用于沁园智联用户。如沁园《隐私政策》与本指引存在不一致或矛盾之处，请以本指引为准。
+    </p>
+    <br/>
+    <p class="bold">
+        10.与我们联系
+    </p>
+    <p>
+        当您有其他的投诉、建议时，请将您的问题发送至privacy@qinyuan.cn或拨打沁园服务热线(400-111-1222)与我们联系。
+    </p>
+    <p>
+        我们将尽快审核所涉问题，并在验证您的用户身份后的十五天内予以回复。
+    </p>
+    <p class="bold">
+        附录一：关键词定义
+    </p>
+    <p>
+        设备参数及系统信息: 设备类型、设备型号、系统版本、及相关硬件信息
+    </p>
+    <p>
+        设备标识符: IMEI、IDFA、Android ID、GID、MAC、蓝牙MAC、OAID、VAID、AAID、IMSI、MEID、UAID、SN、ICCID、SIM信息。 其中UAID（Uniform Anonymous Identifier）为电信运营商推出的统一匿名标识
+    </p>
+    <p>
+        网络信息: IP地址、Wi-Fi信息、基站信息、DNS地址、DNCP地址
+    </p>
+
+    <p>
+        位置信息：粗略定位与精确位置
+    </p>
+    <p>
+        应用信息：APP应用列表及活跃状态信息
+    </p>
+</div>
+</body>
+
+</html>
